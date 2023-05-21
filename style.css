@@ -77,3 +77,23 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width:768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .flow-item {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .flow-item:last-child {
+    margin: 0 auto;
+  }
+
+  .flow-image {
+    width: 100%;
+  }
+}
